@@ -15,6 +15,7 @@
 		592EBFB6207EA21E00FB247B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EBFB5207EA21E00FB247B /* main.m */; };
 		592EBFBD207EA40F00FB247B /* alphabet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 592EBFBC207EA40F00FB247B /* alphabet.txt */; };
 		592EBFC0207EACFA00FB247B /* MorseCodeRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EBFBF207EACFA00FB247B /* MorseCodeRecognizer.m */; };
+		59B1217B207F5B4F0021EACA /* MCAlphabetExpert.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1217A207F5B4F0021EACA /* MCAlphabetExpert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		592EBFBC207EA40F00FB247B /* alphabet.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = alphabet.txt; sourceTree = "<group>"; };
 		592EBFBE207EACFA00FB247B /* MorseCodeRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorseCodeRecognizer.h; sourceTree = "<group>"; };
 		592EBFBF207EACFA00FB247B /* MorseCodeRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeRecognizer.m; sourceTree = "<group>"; };
+		59B12179207F5B4F0021EACA /* MCAlphabetExpert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAlphabetExpert.h; sourceTree = "<group>"; };
+		59B1217A207F5B4F0021EACA /* MCAlphabetExpert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCAlphabetExpert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 				592EBFBC207EA40F00FB247B /* alphabet.txt */,
 				592EBFBE207EACFA00FB247B /* MorseCodeRecognizer.h */,
 				592EBFBF207EACFA00FB247B /* MorseCodeRecognizer.m */,
+				59B12179207F5B4F0021EACA /* MCAlphabetExpert.h */,
+				59B1217A207F5B4F0021EACA /* MCAlphabetExpert.m */,
 			);
 			path = "morse-code-expert";
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 			files = (
 				592EBFAB207EA21800FB247B /* ViewController.m in Sources */,
 				592EBFC0207EACFA00FB247B /* MorseCodeRecognizer.m in Sources */,
+				59B1217B207F5B4F0021EACA /* MCAlphabetExpert.m in Sources */,
 				592EBFB6207EA21E00FB247B /* main.m in Sources */,
 				592EBFA8207EA21800FB247B /* AppDelegate.m in Sources */,
 			);

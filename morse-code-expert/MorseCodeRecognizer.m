@@ -40,10 +40,10 @@
         self.state = UIGestureRecognizerStateFailed;
         return;
     }
-    if (self.timer != nil) {
-        [self.timer invalidate];
-        self.timer = nil;
-    }
+    
+    [self.timer invalidate];
+    self.timer = nil;
+    
     if (self.touch == nil) {
         self.touchBeganTime = [NSDate date];
         self.touch = [touches anyObject];

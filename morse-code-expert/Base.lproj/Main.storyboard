@@ -29,7 +29,7 @@
                                 <rect key="frame" x="10" y="35" width="355" height="582"/>
                                 <color key="backgroundColor" red="0.12984204290000001" green="0.12984612579999999" blue="0.12984395030000001" alpha="0.11627782534246575" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzA-2d-h85">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TzA-2d-h85" userLabel="Text Label">
                                 <rect key="frame" x="10" y="25" width="355" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -52,7 +52,7 @@
                     </view>
                     <connections>
                         <outlet property="canvas" destination="9Eo-ll-4iT" id="wvC-cS-MHE"/>
-                        <outlet property="textView" destination="TzA-2d-h85" id="BZ4-Lk-hDX"/>
+                        <outlet property="textLabel" destination="TzA-2d-h85" id="5zx-xy-GAJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
