@@ -13,6 +13,8 @@
 		592EBFB0207EA21E00FB247B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 592EBFAF207EA21E00FB247B /* Assets.xcassets */; };
 		592EBFB3207EA21E00FB247B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 592EBFB1207EA21E00FB247B /* LaunchScreen.storyboard */; };
 		592EBFB6207EA21E00FB247B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EBFB5207EA21E00FB247B /* main.m */; };
+		592EBFBD207EA40F00FB247B /* alphabet.txt in Resources */ = {isa = PBXBuildFile; fileRef = 592EBFBC207EA40F00FB247B /* alphabet.txt */; };
+		592EBFC0207EACFA00FB247B /* MorseCodeRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 592EBFBF207EACFA00FB247B /* MorseCodeRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		592EBFB2207EA21E00FB247B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592EBFB4207EA21E00FB247B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		592EBFB5207EA21E00FB247B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		592EBFBC207EA40F00FB247B /* alphabet.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = alphabet.txt; sourceTree = "<group>"; };
+		592EBFBE207EACFA00FB247B /* MorseCodeRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorseCodeRecognizer.h; sourceTree = "<group>"; };
+		592EBFBF207EACFA00FB247B /* MorseCodeRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorseCodeRecognizer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +72,9 @@
 				592EBFB1207EA21E00FB247B /* LaunchScreen.storyboard */,
 				592EBFB4207EA21E00FB247B /* Info.plist */,
 				592EBFB5207EA21E00FB247B /* main.m */,
+				592EBFBC207EA40F00FB247B /* alphabet.txt */,
+				592EBFBE207EACFA00FB247B /* MorseCodeRecognizer.h */,
+				592EBFBF207EACFA00FB247B /* MorseCodeRecognizer.m */,
 			);
 			path = "morse-code-expert";
 			sourceTree = "<group>";
@@ -131,6 +139,7 @@
 				592EBFB3207EA21E00FB247B /* LaunchScreen.storyboard in Resources */,
 				592EBFB0207EA21E00FB247B /* Assets.xcassets in Resources */,
 				592EBFAE207EA21800FB247B /* Main.storyboard in Resources */,
+				592EBFBD207EA40F00FB247B /* alphabet.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +151,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				592EBFAB207EA21800FB247B /* ViewController.m in Sources */,
+				592EBFC0207EACFA00FB247B /* MorseCodeRecognizer.m in Sources */,
 				592EBFB6207EA21E00FB247B /* main.m in Sources */,
 				592EBFA8207EA21800FB247B /* AppDelegate.m in Sources */,
 			);
@@ -286,6 +296,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7VR5AMBYN;
 				INFOPLIST_FILE = "morse-code-expert/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T7VR5AMBYN;
 				INFOPLIST_FILE = "morse-code-expert/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
